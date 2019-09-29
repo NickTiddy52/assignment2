@@ -3,4 +3,17 @@ On branch master
 Your branch is ahead of 'origin/master' by 1 commit.
   (use "git push" to publish your local commits)
 
-  
+  PS C:\Users\nickt\Desktop\NodeCourse\SWAssignment2\assignment2> git commit -m "Added docs folder to store status.txt"
+[master 142739d] Added docs folder to store status.txt
+ 1 file changed, 6 insertions(+)
+ create mode 100644 docs/status.txt
+PS C:\Users\nickt\Desktop\NodeCourse\SWAssignment2\assignment2> git push
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 806 bytes | 201.00 KiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/NickTiddy52/assignment2.git
+   f4975e5..142739d  master -> master
