@@ -1,0 +1,28 @@
+A:   PS C:\Users\nickt\Desktop\NodeCourse\SWAssignment2\assignment2> git commit -m "Added docs folder to store status.txt"
+[master 142739d] Added docs folder to store status.txt
+ 1 file changed, 6 insertions(+)
+ create mode 100644 docs/status.txt
+PS C:\Users\nickt\Desktop\NodeCourse\SWAssignment2\assignment2> git push
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 806 bytes | 201.00 KiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/NickTiddy52/assignment2.git
+   f4975e5..142739d  master -> master
+
+B: 9, git rev-list --all --count
+C: 2019-09-25 18:13:30, gitk .gitignore
+D: Branches can be used for version control one branch could be used to only keep production code while another branch is used to develop a new feature. 
+    Also using branches can help developers revert back old code if an error occured after pushing to production branch.
+E: Git log gives you an overview of committed changes in the project history while git status will show staged, unstaged, and untracked files in current project.
+F: git log -- Vehicle.h
+G: git log -p ":/file"
+H: Inheritance is when an object gets the some or all of the properties from another object like truck and sedan inheriting from a vehicle class.
+   Polymorphism is when an object is processed differently based on its datatype. Commenly seen in OOO as overloading and making generic types.
+   Encapsulation is when an object has private data and is prevented from being altered by external code. You only want data to be changed by objects that are granted access to it.
+I: In the Dictator and Lieutenants workflow the lieutenants help resovle merge conflicts that go on between developers, then the dictator resolves conflicts between lieutenants. Devs code are push to lieutenants instead of public branch.
+   In the Integration Manager workflow the Integration Manager is responsible for resolving all conflicts and the code is pulled from each devs public branch.
+J: Centralized workflow is prone to more errors and merge conflicts as there is no one assigned to resolve them. There lacks code review in a shared repository. Going through lieutenants and dictator allows code review and merge resolution.
