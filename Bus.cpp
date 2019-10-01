@@ -24,7 +24,7 @@ int Bus::getNumberOfStops() {
 }
 
 void Bus::setNumberOfStops(int numberOfStops) {
-	numberOfStops = numberOfStops;
+	this->numberOfStops = numberOfStops;
 
 }
 

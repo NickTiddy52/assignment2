@@ -1,5 +1,5 @@
 //
-// Created by Esteban Parra on 9/5/19.
+// Created by Nicholas Tidwell 10/1/19.
 //
 
 #ifndef DRIVINGSIMULATOR_SKATEBOARD_H
@@ -21,4 +21,4 @@ public:
 };
 
 
-#endif //DRIVINGSIMULATOR_BICYCLE_H
+#endif

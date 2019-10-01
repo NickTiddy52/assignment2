@@ -1,9 +1,8 @@
 //
-// Created by Esteban Parra on 9/5/19.
+// Created by Nicholas Tidwell 10/1/19
 //
 
 #include "Skateboard.h"
-
 
 Skateboard::Skateboard(string brand, string model) {
 	setBrand(brand);
@@ -14,12 +13,13 @@ Skateboard::~Skateboard() = default;
 
 
 double Skateboard::mileageEstimate(double time) {
+
 	double mileage = (rand() % 5 + 1);
 	mileage /= 10;
 	if (time > 25 && time < 250)
 	{
 		double randomRange = rand() % 3 + 1;
-		mileage *= randomRange;
+		mileage +=  time * randomRange;
 	}
 	return mileage;
 }
