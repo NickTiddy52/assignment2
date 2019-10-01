@@ -26,3 +26,6 @@ H: Inheritance is when an object gets the some or all of the properties from ano
 I: In the Dictator and Lieutenants workflow the lieutenants help resovle merge conflicts that go on between developers, then the dictator resolves conflicts between lieutenants. Devs code are push to lieutenants instead of public branch.
    In the Integration Manager workflow the Integration Manager is responsible for resolving all conflicts and the code is pulled from each devs public branch.
 J: Centralized workflow is prone to more errors and merge conflicts as there is no one assigned to resolve them. There lacks code review in a shared repository. Going through lieutenants and dictator allows code review and merge resolution.
+
+5. Polymorphism is seen in Driving Similuator when calculating mileage. Each Object has a mileage but there is different overloads for each class that process it differently.
+   Encapsulation is seen when we have private member data in a class such as Vehicle and then inherit the data to another class like powererd vehicle. Making the data private ensures only wanted to classes can access it.
